@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := MonoDumperKit
+LOCAL_MODULE := MonoInjectorKit
 
 LOCAL_SRC_FILES := src/Inject.cpp \
  src/Utils.cpp \

@@ -18,7 +18,7 @@ Inject_Status InjectDLL(Inject_Params *params) {
         return GET_DOMAIN_FAILED;
     }
 
-    // attach to thread
+    // attach our thread
     MonoThread *thread = mono_thread_attach(domain);
     if (!thread) {
         return THREAD_ATTACH_FAILED;
